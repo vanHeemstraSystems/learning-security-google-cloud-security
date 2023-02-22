@@ -1,0 +1,49 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Learning Security - Google Cloud Security"
+  page-navigation: true
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+  sidebar:
+    - title: "Home"
+      style: "docked"
+      background: light
+      contents:
+        - text: "---"
+        - section: Topics
+        - text: "---"
+        - topics.qmd
+        - text: "---"
+        - section: Foo
+        - text: "---"
+        - topics/foo-1.qmd
+        - topics/foo-2.qmd
+        - topics/foo-3.qmd      
+    - title: "Topics"
+      style: "docked"
+      background: light
+      contents:
+        - text: "---"
+        - section: Topics
+        - text: "---"
+        - topics.qmd
+        - text: "---"
+        - section: Foo
+        - text: "---"
+        - topics/foo-1.qmd
+        - topics/foo-2.qmd
+        - topics/foo-3.qmd
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+execute:
+  freeze: auto
