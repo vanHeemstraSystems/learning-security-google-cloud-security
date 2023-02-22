@@ -1,3 +1,5 @@
+[![Quarto Publish](https://github.com/vanHeemstraSystems/learning-security-google-cloud-security/actions/workflows/publish.yml/badge.svg)](https://github.com/vanHeemstraSystems/learning-security-google-cloud-security/actions/workflows/publish.yml)
+
 learning-security-google-cloud-security
 # Learning Security - Google Cloud Security
 
